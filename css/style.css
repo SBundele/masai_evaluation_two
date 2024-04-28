@@ -313,6 +313,8 @@ textarea {
     text-align: left;
     margin: 0;
     margin-top: 21px;
-
+  }
+  .info ul:nth-child(3) > li {
+    padding: 0;
   }
 }
