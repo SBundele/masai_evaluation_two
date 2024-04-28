@@ -231,6 +231,88 @@ textarea {
     width: 45%;
     list-style-type: none;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    color: white;
+  }
+  .desktop-logo > ul > li {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .desktop-logo > ul > li:last-child > button {
+    padding: 13px 56.5px 11px;
+    background: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #ffffff4d;
+    color: #ffffff;
+  }
+  .hero-section {
+    padding: 47px 0 55px;
+  }
+  .hero-section > h2 {
+    font-family: DM Serif Display;
+    font-size: 72px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .hero-section > p {
+    font-family: DM Sans;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .main {
+    padding: 64px 135px 0;
+  }
+  .gradient-image {
+    height: 640px;
+  }
+  .location > div:last-child {
+    width: 108px;
+    height: 108px;
+    top: 300px;
+    left: 582px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .msg{
+    width: 65%;
+  }
+  .info{
+    width: 25%;
+    margin-top: 0;
+  }
+  .info > p{
+    margin: 0;
+  }
+  .input {
+    display: flex;
+    column-gap: 33px;
+  }
+  .msg > textarea{
+    width: 96%;
+    font-family: DM Serif Display;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 79px 135px 100px;
+  }
+  .div-one > p:last-child{
+    width: 516px;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    margin: 0;
+    margin-top: 21px;
+
   }
 }
