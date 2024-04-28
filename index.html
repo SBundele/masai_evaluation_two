@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Evaluation</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="mobile-nav">
-        <h1>LOGO</h1>
+        <h4>LOGO</h4>
         <div>
             <img src="./images/nav-logo.png" alt="Navbar logo">
         </div>
       </nav>
+
       <nav class="desktop-logo">
         <h1>LOGO</h1>
         <ul>
@@ -20,8 +22,6 @@
           <li>Portfolio</li>
           <li>Blog</li>
           <li>Contact</li>
-        </ul>
-        <ul>
           <li><button>Sign up</button></li>
         </ul>
       </nav>
@@ -32,23 +32,27 @@
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <section class="location">
         <div class="gradient-image"></div>
+        <div>
+            <img src="./images/hero-location.png" alt="location">
+        </div>
       </section>
 
       <section class="contact">
-        <div>
-          <div>
+        <div class="container">
+          <div class="msg">
             <p>Message</p>
-            <div>
+            <div class="input">
               <input type="text" placeholder="Your name" />
               <input type="text" placeholder="Your email" />
             </div>
-            <textarea cols="30" rows="10"></textarea>
+            <textarea placeholder="Your Message"></textarea>
             <button>Submit</button>
           </div>
-          <div>
+
+          <div class="info">
             <p>Info</p>
             <ul>
               <li>
@@ -74,12 +78,12 @@
       </section>
     </main>
 
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="div-one">
         <p>pericula</p>
         <p>Mea modus volumus abhorreant</p>
       </div>
-      <div>
+      <div class="div-two">
         <input type="email" name="" id="" placeholder="Email">
         <button>Subscribe</button>
       </div>

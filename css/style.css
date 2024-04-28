@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #434ccc;
+}
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 26px 16px 14px;
+}
+.mobile-nav > h4 {
+  margin: 0;
+  font-family: DM Serif Display;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.desktop-logo {
+  display: none;
+}
+
+.hero-section {
+  padding: 28px 24px 39px 27px;
+}
+.hero-section > h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+.hero-section > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 13px;
+}
+.main {
+  padding: 16px 14px 0;
+}
+.location {
+  position: relative;
+}
+.gradient-image {
+  width: 100%;
+  height: 190px;
+  background: linear-gradient(rgba(67, 76, 204, 0.8), rgba(67, 76, 204, 0.6)),
+    url("../images/Bitmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.location > div:last-child {
+  position: absolute;
+  top: 30px;
+  left: 134px;
+  width: 108px;
+  height: 108px;
+}
+.location > div:last-child > img {
+  width: 100%;
+  height: 100%;
+}
+.contact {
+  margin-top: 44px;
+}
+.msg > p {
+  font-family: DM Serif Display;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  margin: 0;
+}
+.msg > div:first-child {
+  margin-top: 38px;
+}
+.msg > .input > input {
+  display: block;
+  width: 90%;
+  margin-top: 16px;
+  padding: 13px 16px 11px;
+}
+textarea {
+  margin-top: 16px;
+  display: block;
+  width: 90%;
+  height: 144px;
+  padding: 13px 16px;
+}
+.msg > button {
+  margin-top: 38px;
+  padding: 13px 57.5px 11px 56.5px;
+  background: #434ccc;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+}
+.info {
+  margin-top: 76px;
+}
+.info {
+  font-family: DM Serif Display;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+}
+.info ul {
+  padding: 0;
+  margin: 0;
+}
+.info ul:nth-child(2) li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  column-gap: 22px;
+  margin-top: 32px;
+}
+.info ul:nth-child(2) li > address {
+  font-style: normal;
+  color: gray;
+}
+.info ul:nth-child(2) li:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+.info ul:nth-child(2) li:nth-child(3) {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.info ul:nth-child(3) {
+  margin-top: 54px;
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+.info ul:nth-child(3) > li {
+  width: 48px;
+  height: 48px;
+  background-color: #434ccc;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.footer {
+  margin-top: 80px;
+  background: #ffdd78;
+  padding: 63px 14px 80px;
+}
+.div-one > p:first-child {
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.div-one > p:last-child {
+  font-family: DM Serif Display;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  width: 209px;
+}
+.div-two {
+  margin-top: 38px;
+}
+.div-two > input {
+  padding: 13px 16px 11px;
+  width: 90%;
+}
+.div-two > button {
+  margin-top: 16px;
+  background: #434ccc;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  padding: 13px 45.5px 11px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+  .desktop-logo {
+    padding: 16px 135px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .desktop-logo > h1 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .desktop-logo > ul {
+    width: 45%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
